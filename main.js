@@ -80,14 +80,6 @@ const checkForWin = () => {
 }
 
 const ticTacToe = (row, column) => {
-  //  const changeTurn = () => {
-  //   if (playerTurn = 'X'){
-  //       playerTurn = 'O'
-  //     } else  {
-  //       playerTurn = 'X'
-  //     }
-  //  }
-  // let b = board[row][column];
     if (board[row][column] != ' '){
       console.log("Choose a empty spot")
       return
